@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="spring-mvc-smx-${project.version}">
+  <feature name="spring-mvc-smx" version="${project.version}">
+    <feature>spring</feature>
+    <feature>spring-dm</feature>
+    <feature>war</feature>
+    
+    <bundle>mvn:${project.groupId}/spring-mvc-smx/${project.version}/war</bundle>
+    
+    <bundle>mvn:org.springframework.osgi/spring-osgi-web/1.2.1</bundle>
+    <bundle>mvn:org.springframework/spring-web/3.0.7.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-webmvc/3.0.7.RELEASE</bundle>
+    
+    <bundle>mvn:javax.servlet/com.springsource.javax.servlet.jsp.jstl/1.2.0.v20110728</bundle>
+  </feature>
+</features>
