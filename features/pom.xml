@@ -20,7 +20,7 @@
   <parent>
     <groupId>valeri.blog.examples.pax-exam-servicemix</groupId>
     <artifactId>pax-exam-servicemix-root</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>pax-exam-servicemix-features</artifactId>
