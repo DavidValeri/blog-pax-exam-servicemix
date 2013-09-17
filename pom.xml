@@ -21,7 +21,7 @@
   <parent>
     <groupId>valeri.blog.examples</groupId>
     <artifactId>parent</artifactId>
-    <version>4.0-SNAPSHOT</version>
+    <version>5</version>
   </parent>
 
   <groupId>valeri.blog.examples.pax-exam-servicemix</groupId>
@@ -43,6 +43,12 @@
     <osgi.package.exports>!*</osgi.package.exports>
     <osgi.package.imports>*</osgi.package.imports>
   </properties>
+  
+  <scm>
+    <connection>scm:git:git@github.com:DavidValeri/blog-pax-exam-servicemix.git</connection>
+    <developerConnection>scm:git:git@github.com:DavidValeri/blog-pax-exam-servicemix.git</developerConnection>
+    <url>https://github.com/DavidValeri/blog-pax-exam-servicemix</url>
+  </scm>
   
   <modules>
     <module>bundle</module>
